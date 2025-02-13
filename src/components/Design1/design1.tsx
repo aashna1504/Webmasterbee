@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Eye, Clock, Sparkles, Users, Check, CheckSquare } from "lucide-react";
+import { Eye, Clock, Sparkles, Users, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -23,14 +23,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
 const faqs = [
   {
     question: "What services do you offer?",
@@ -253,7 +245,7 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="text-lg text-gray-600 max-w-xl">
-              We'll work with your team to build a custom, high-performing
+              Well work with your team to build a custom, high-performing
               website that helps you gain customers and keep them for longer.
             </p>
             <Button
@@ -292,7 +284,7 @@ export default function HomePage() {
                 in the best light.
               </p>
               <p className="text-[18px] text-white/80 leading-relaxed">
-                With a Clix website, you'll be able to lay out the key
+                With a Clix website, you&apos;ll be able to lay out the key
                 information visitors are looking for in the most intuitive way,
                 allowing you to gain more customers in less time.
               </p>
@@ -374,7 +366,7 @@ export default function HomePage() {
               className="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar"
               style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
             >
-              {projects.map((project, index) => (
+              {projects.map((project) => (
                 <div
                   key={project.id}
                   className={cn(
@@ -602,7 +594,7 @@ export default function HomePage() {
               <CardContent className="pb-8">
                 <div className="space-y-1">
                   <p className="text-blue-100 text-left mb-4">Includes:</p>
-                  {features2.map((features2, index) => (
+                  {features2.map((features2) => (
                     <div
                       key={features2}
                       // initial={{ opacity: 0, x: -20 }}
@@ -648,7 +640,7 @@ export default function HomePage() {
             >
               <h2 className="text-4xl font-bold">FAQs</h2>
               <p className="text-gray-600">
-                You might have some questions in mind - let's answer them!
+                You might have some questions in mind - let&apos;s answer them!
               </p>
               <Button variant="outline" size="lg" className="border-2">
                 Contact
@@ -690,7 +682,7 @@ export default function HomePage() {
               whileInView={{ opacity: 1, y: 0 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
             >
-              Boost conversion rates higher than they've ever been
+              Boost conversion rates higher than they&apos;ve ever been
             </motion.h2>
 
             <motion.p

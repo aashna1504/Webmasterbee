@@ -1,15 +1,9 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
-import { Check, CheckSquare, Play, Star } from "lucide-react";
+import { Check, Star } from "lucide-react";
 import { BarChart3, Cog, Monitor, Gauge, Users, Shield } from "lucide-react";
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -53,13 +47,13 @@ function Design() {
         "Web application firewalls are a must these days if you're in certain industries. Most hosting companies today couple with a WAF in some way. We can help manage, setup and deploy your setup no matter how complex.",
     },
   ];
-  const securityFeatures = [
-    "We update all your plugins weekly ( minimum )",
-    "Patch any vital security issues as they appear",
-    "Ensure firewalls are updated and protecting your site",
-    "Configure and control access where needed",
-    "And many more custom security features...",
-  ];
+  // const securityFeatures = [
+  //   "We update all your plugins weekly ( minimum )",
+  //   "Patch any vital security issues as they appear",
+  //   "Ensure firewalls are updated and protecting your site",
+  //   "Configure and control access where needed",
+  //   "And many more custom security features...",
+  // ];
   interface BlogPost {
     title: string;
     categories: string[];
@@ -299,10 +293,10 @@ function Design() {
 
             <p className="text-gray-600">
               From e-commerce to non-profits to membership sites, we can help
-              you manage your websites and navigate the complexities of Google's
-              various management channels. These include Google Console™,
-              formerly Webmaster Tools™, Merchant Center™, My Business™, and
-              more.
+              you manage your websites and navigate the complexities of
+              Google&apos;s various management channels. These include Google
+              Console™, formerly Webmaster Tools™, Merchant Center™, My
+              Business™, and more.
             </p>
 
             <p className="text-gray-600">
@@ -337,7 +331,8 @@ function Design() {
                 knowledge-base that is vastly superior to our competitors
               </span>
               . If you want to get ahead of the pack and need a reliable
-              WordPress or Shopify industry partner expert, we're your team.
+              WordPress or Shopify industry partner expert, we&apos;re your
+              team.
             </p>
 
             <p className="text-gray-600">
@@ -547,11 +542,11 @@ function Design() {
       <div className="bg-[url(https://img.freepik.com/premium-photo/green-mosaic-abstract-texture-background-pattern-backdrop-wallpaper_41691-6689.jpg)] object-cover bg-center bg-no-repeat bg-cover">
         <div className=" text-white py-20 text-center container mx-auto">
           <h2 className="text-3xl font-bold">
-            We're Laser Focused On Responsiveness & Quality
+            Were Laser Focused On Responsiveness & Quality
           </h2>
           <p className="mt-4 max-w-2xl mx-auto">
             Having someone from our team on standby is the{" "}
-            <span className="font-semibold">ultimate "life hack"</span> for
+            <span className="font-semibold">ultimate life hack&quot;</span> for
             website owners. We don’t sit on your emails or messages and respond
             within hours to almost all requests.
           </p>

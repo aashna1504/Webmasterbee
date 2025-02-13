@@ -18,7 +18,7 @@ export default function WebsiteExperiences() {
               in the best light.
             </p>
             <p className="text-lg md:text-xl text-white/80 leading-relaxed">
-              With a Clix website, you'll be able to lay out the key information
+              With a Clix website, you&apos;ll be able to lay out the key information
               visitors are looking for in the most intuitive way, allowing you
               to gain more customers in less time.
             </p>
