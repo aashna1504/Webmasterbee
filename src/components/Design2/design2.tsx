@@ -150,78 +150,15 @@ function Design() {
   return (
     <div>
       {" "}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur supports-[backdrop-filter]:bg-slate-900/75">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-20">
-            {/* Logo */}
-            <Link href="/" className="flex items-center space-x-2">
-              {/* <img
-                src="/placeholder.svg"
-                alt="Webmaster Team"
-                width={40}
-                height={40}
-                className="w-10 h-10"
-              /> */}
-              <span className="text-white font-semibold">WEBMASTER TEAM</span>
-            </Link>
-
-            {/* Navigation Links */}
-            <div className="hidden md:flex items-center space-x-8">
-              <Link
-                href="/services"
-                className="text-gray-300 hover:text-white transition-colors"
-              >
-                SERVICES
-              </Link>
-              <Link
-                href="/about"
-                className="text-gray-300 hover:text-white transition-colors"
-              >
-                ABOUT
-              </Link>
-              <Link
-                href="/learn"
-                className="text-gray-300 hover:text-white transition-colors"
-              >
-                LEARN
-              </Link>
-              <Link
-                href="/pricing"
-                className="text-gray-300 hover:text-white transition-colors"
-              >
-                PRICING
-              </Link>
-              <Link
-                href="/contact"
-                className="text-gray-300 hover:text-white transition-colors"
-              >
-                CONTACT
-              </Link>
-            </div>
-
-            {/* Action Buttons */}
-            <div className="flex items-center space-x-4">
-              <Link
-                href="/account"
-                className="text-gray-300 hover:text-white transition-colors"
-              >
-                MY ACCOUNT
-              </Link>
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white">
-                GET A QUOTE
-              </Button>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <div className="relative bg-slate-900">
+      <div className="h-full w-full absolute"></div>
+      <div className="relative bg-slate-800">
         {/* Background Image */}
         <div
           className="absolute inset-0 z-0"
           style={{
             backgroundImage: `url(${
               process.env.NEXT_PUBLIC_IMAGE_URL ||
-              "https://th.bing.com/th/id/OIP.yNf1SRzDCkV1lLtPiCvHeQHaE8?rs=1&pid=ImgDetMain"
+              "https://res.cloudinary.com/druohnmyv/image/upload/v1742386374/wp10583142_mkesmm.jpg"
             })`,
             backgroundSize: "cover",
             backgroundPosition: "center",
@@ -244,12 +181,12 @@ function Design() {
                 and frustration? We can help.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-6 text-lg">
+                <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-6 text-[16px] rounded-full p-3">
                   LEARN MORE
                 </Button>
                 <Button
                   variant="outline"
-                  className="border-white text-white bg-white/10 px-8 py-6 text-lg"
+                  className="border-white text-white bg-white/10 px-8 py-6 text-[16px] rounded-full p-3"
                 >
                   GET SERVICE
                 </Button>
@@ -262,7 +199,7 @@ function Design() {
       </div>
       <div className="py-20 bg-[url(https://img.freepik.com/premium-photo/green-mosaic-abstract-texture-background-pattern-backdrop-wallpaper_41691-6689.jpg)] object-cover bg-center bg-no-repeat bg-cover">
         <div className="text-center">
-          <h2 className="text-[30px] text-white mb-20">
+          <h2 className="text-[25px] text-white mb-20">
             TRUSTED BY CLIENTS WORLDWIDE
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
@@ -343,7 +280,7 @@ function Design() {
               in way that helps you grow across all channels.
             </p>
 
-            <Button className="bg-[#1B5E20] hover:bg-[#1B5E20]/90 text-white px-8 py-6 text-lg">
+            <Button className="bg-[#1B5E20] hover:bg-[#1B5E20]/90 text-white px-8 py-6 text-lg rounded-full">
               SCHEDULE A CALL TODAY!
             </Button>
           </div>
@@ -352,7 +289,7 @@ function Design() {
             <img
               src={
                 encodeURI(
-                  "https://th.bing.com/th/id/OIP.yNf1SRzDCkV1lLtPiCvHeQHaE8?rs=1&pid=ImgDetMain"
+                  "https://res.cloudinary.com/druohnmyv/image/upload/v1742397482/pexels-photo-7709201_v87yam.jpg"
                 ) || "/placeholder.svg"
               }
               alt="Code editor screenshot with colorful overlay"
@@ -670,30 +607,6 @@ function Design() {
           </div>
 
           {/* Footer */}
-          <footer className="mt-16 pt-8 border-t">
-            <div className="flex flex-wrap justify-between items-center">
-              <nav className="space-x-6 text-sm">
-                <Link href="/about" className="hover:text-orange-500">
-                  ABOUT
-                </Link>
-                <Link href="/services" className="hover:text-orange-500">
-                  WEBSITE SERVICES
-                </Link>
-                <Link href="/learn" className="hover:text-orange-500">
-                  LEARN
-                </Link>
-                <Link href="/contact" className="hover:text-orange-500">
-                  CONTACT
-                </Link>
-                <Link href="/privacy" className="hover:text-orange-500">
-                  PRIVACY
-                </Link>
-              </nav>
-              <div className="text-sm text-gray-500">
-                Copyright © 2025 The Webmaster Company
-              </div>
-            </div>
-          </footer>
         </div>
       </div>
     </div>
