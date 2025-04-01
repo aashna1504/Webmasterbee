@@ -2,9 +2,10 @@ import React from "react";
 
 function contact() {
   return (
-    <div>
+    <div className="relative">
       <>
-        <div className="min-h-screen bg-[url('https://res.cloudinary.com/druohnmyv/image/upload/v1742317952/3d-network-connections-with-plexus-design-blue-background-wallpaper-generative-ai-weber_31965-189498_pfwtpd.jpg')] bg-cover bg-no-repeat py-12 px-4 sm:px-6 lg:px-8 lg:mt-20 ">
+        <div className="absolute h-screen bg-[rgba(0,0,0,.8)] w-full top-0 right-0 z-10" />
+        <div className=" z-20 min-h-screen bg-[url('https://res.cloudinary.com/druohnmyv/image/upload/v1742317952/3d-network-connections-with-plexus-design-blue-background-wallpaper-generative-ai-weber_31965-189498_pfwtpd.jpg')] bg-cover bg-no-repeat py-12 px-4 sm:px-6 lg:px-8 lg:mt-20 ">
           <div className="max-w-7xl mx-auto ">
             <h1 className="text-4xl font-extrabold text-center text-white mb-12">
               Contact Us Or Schedule a Call

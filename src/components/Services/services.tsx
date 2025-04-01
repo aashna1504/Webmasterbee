@@ -32,10 +32,11 @@ function services() {
     "and much, much more....",
   ];
   return (
-    <div>
+    <div className="relative">
       {" "}
+      <div className="absolute h-[33.4rem] bg-[rgba(0,0,0,.8)] w-full top-0 right-0 z-10" />
       <section className=" mt-20 bg-[url('https://res.cloudinary.com/druohnmyv/image/upload/v1742398173/if-you-recognize-these-signs-youre-finally-finding-your-voice-and-standing-up-for-yourself-1-1024x538_rkbfst.png')] py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto ">
+        <div className="max-w-7xl mx-auto relative z-20">
           {/* Header Section */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-white">
@@ -86,7 +87,7 @@ function services() {
             <div className="bg-gray-50 p-8 rounded-xl border border-gray-200">
               <div className="mb-6">
                 <svg
-                  className="h-8 w-8 text-gray-400"
+                  className="h-8 w-8 text-[#ec6a2a]"
                   fill="currentColor"
                   viewBox="0 0 32 32"
                 >
