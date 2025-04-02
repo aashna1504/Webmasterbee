@@ -118,32 +118,32 @@ function Design() {
     {
       title: "Room Panel",
       imageUrl:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0pCSjWVHfTnjLWim9zp6FrhradGfrk.png",
+        "https://res.cloudinary.com/druohnmyv/image/upload/v1742398422/0_GettyImages-1062463482jpgThe-model-may-also-have-advantages-for-current-owners_jcfufk.webp",
     },
     {
       title: "Real-Time Intelligence",
       imageUrl:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0pCSjWVHfTnjLWim9zp6FrhradGfrk.png",
+        "https://res.cloudinary.com/druohnmyv/image/upload/v1742398173/if-you-recognize-these-signs-youre-finally-finding-your-voice-and-standing-up-for-yourself-1-1024x538_rkbfst.png",
     },
     {
       title: "Student Connect",
       imageUrl:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0pCSjWVHfTnjLWim9zp6FrhradGfrk.png",
+        "https://res.cloudinary.com/druohnmyv/image/upload/v1742398422/0_GettyImages-1062463482jpgThe-model-may-also-have-advantages-for-current-owners_jcfufk.webp",
     },
     {
       title: "Meeting Personal",
       imageUrl:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0pCSjWVHfTnjLWim9zp6FrhradGfrk.png",
+        "https://res.cloudinary.com/druohnmyv/image/upload/v1742398422/0_GettyImages-1062463482jpgThe-model-may-also-have-advantages-for-current-owners_jcfufk.webp",
     },
     {
       title: "Any Platform",
       imageUrl:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0pCSjWVHfTnjLWim9zp6FrhradGfrk.png",
+        "https://res.cloudinary.com/druohnmyv/image/upload/v1742398173/if-you-recognize-these-signs-youre-finally-finding-your-voice-and-standing-up-for-yourself-1-1024x538_rkbfst.png",
     },
     {
       title: "Meeting Personal",
       imageUrl:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0pCSjWVHfTnjLWim9zp6FrhradGfrk.png",
+        "https://res.cloudinary.com/druohnmyv/image/upload/v1742398422/0_GettyImages-1062463482jpgThe-model-may-also-have-advantages-for-current-owners_jcfufk.webp",
     },
   ];
 
@@ -181,15 +181,18 @@ function Design() {
                 and frustration? We can help.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-6 text-[16px] rounded-full p-3">
+                <a
+                  href="/contact"
+                  className="bg-orange-500 hover:bg-orange-600 text-white text-[16px] rounded-full p-4"
+                >
                   LEARN MORE
-                </Button>
-                <Button
-                  variant="outline"
-                  className="border-white text-white bg-white/10 px-8 py-6 text-[16px] rounded-full p-3"
+                </a>
+                <button
+                  onClick={() => window.open("/contact", "_blank")}
+                  className="border-white text-white bg-white/10 p-4 text-[16px] rounded-full  hover:bg-white/20 transition duration-300 ease-in-out"
                 >
                   GET SERVICE
-                </Button>
+                </button>
               </div>
             </div>
           </div>
@@ -280,7 +283,10 @@ function Design() {
               in way that helps you grow across all channels.
             </p>
 
-            <Button className="bg-[#1B5E20] hover:bg-[#1B5E20]/90 text-white px-8 py-6 text-lg rounded-full">
+            <Button
+              onClick={() => window.open("/contact", "_blank")}
+              className="bg-[#ec6a2a] hover:bg-[#ec6a2a]/90 text-white px-8 py-6 text-lg rounded-full"
+            >
               SCHEDULE A CALL TODAY!
             </Button>
           </div>
@@ -319,7 +325,7 @@ function Design() {
                 >
                   <div className=" relative mb-4">
                     <img
-                      src="https://th.bing.com/th/id/OIP.qXogeR3wbHxy57sfu5C1VgHaEK?rs=1&pid=ImgDetMain"
+                      src={innovation.imageUrl}
                       alt={innovation.title}
                       className="h-full w-full object-contain rounded-xl"
                     />
@@ -330,7 +336,7 @@ function Design() {
                   <div className="text-center">
                     <Button
                       variant="default"
-                      className="bg-orange-500 text-white"
+                      className="bg-orange-500 text-white rounded-full px-4 py-2 hover:bg-orange-600 transition-colors"
                     >
                       Discover
                     </Button>
@@ -349,7 +355,7 @@ function Design() {
               <div className="relative">
                 <div className="relative aspect-video w-full overflow-hidden rounded-lg">
                   <img
-                    src="https://th.bing.com/th/id/OIP.4Tz9ywGYaY_oDrvbpJTgxQHaE8?w=2560&h=1707&rs=1&pid=ImgDetMain"
+                    src="https://res.cloudinary.com/druohnmyv/image/upload/v1742395137/people-on-laptop-news_466862540_kqupo8.jpg"
                     alt="Business professionals discussing insurance"
                     className="object-cover"
                   />
@@ -426,7 +432,7 @@ function Design() {
               </div>
               <div className="relative w-full overflow-hidden rounded-lg object-cover">
                 <img
-                  src="https://th.bing.com/th/id/OIP.qXogeR3wbHxy57sfu5C1VgHaEK?rs=1&pid=ImgDetMain"
+                  src="https://res.cloudinary.com/druohnmyv/image/upload/v1742398060/College-Students-Using-Laptops-Feature-Image_nxbf74.jpg"
                   alt="Happy family on their porch"
                   className="w-full"
                 />
@@ -469,8 +475,9 @@ function Design() {
 
         <div className="text-center mt-12">
           <Button
+            onClick={() => window.open("/services", "_blank")}
             size="lg"
-            className="bg-orange-500 hover:bg-orange-600 text-white"
+            className="bg-orange-500 hover:bg-orange-600 text-white rounded-full px-8 py-4 text-lg"
           >
             VIEW ALL WEBSITE SERVICES
           </Button>
@@ -591,7 +598,7 @@ function Design() {
                         <Badge
                           key={catIndex}
                           variant="secondary"
-                          className="text-xs font-semibold"
+                          className="text-xs font-semibold bg-gray-200 text-gray-800"
                         >
                           {category}
                         </Badge>

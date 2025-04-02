@@ -425,12 +425,18 @@ const pricing = () => {
             need them. We’re ready!
           </p>
           <div className="mt-4 flex justify-center gap-4">
-            <button className="border border-white p-4 rounded-full hover:bg-white hover:text-[#ec6a2a]">
+            <a
+              href="/contact"
+              className="border border-white p-4 rounded-full hover:bg-white hover:text-[#ec6a2a]"
+            >
               CONTACT US
-            </button>
-            <button className="bg-white text-[#ec6a2a] p-4 rounded-full hover:bg-opacity-80">
+            </a>
+            <a
+              href="/contact"
+              className="bg-white text-[#ec6a2a] p-4 rounded-full hover:bg-opacity-80"
+            >
               SCHEDULE CONSULT
-            </button>
+            </a>
           </div>
         </div>
       </div>

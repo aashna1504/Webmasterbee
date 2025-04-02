@@ -58,13 +58,13 @@ function About() {
         </p>
         <div className="mt-4 text-[16px]">
           <a
-            href="#"
+            href="/contact"
             className="inline-block text-white bg-[#ec6a2a] px-6 p-3 rounded-full font-bold border-2 border-white mx-2"
           >
             CONTACT US
           </a>
           <a
-            href="#"
+            href="/contact"
             className="inline-block bg-white text-[#ec6a2a] px-6 p-3 rounded-full font-bold border-2 border-white mx-2"
           >
             SCHEDULE CONSULT

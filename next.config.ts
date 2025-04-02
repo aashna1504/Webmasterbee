@@ -12,12 +12,9 @@ const nextConfig: NextConfig = {
       "https://res.cloudinary.com/druohnmyv/image/upload/v1742394194/e74bb5c8efaa066cc9db6f6d82d22634_b4cfgs.jpg",
       "https://res.cloudinary.com/druohnmyv/image/upload/v1742394285/R.434fa0dd0eeaaf615cfc5b89079012dc_tawbpc.jpg",
       "https://res.cloudinary.com/druohnmyv/image/upload/v1742394340/AdobeStock_230366692_iybwdu.jpg",
+      "https://res.cloudinary.com/druohnmyv/image/upload/v1742398173/if-you-recognize-these-signs-youre-finally-finding-your-voice-and-standing-up-for-yourself-1-1024x538_rkbfst.png",
     ],
   },
 };
-
-
-
-
 
 export default nextConfig;

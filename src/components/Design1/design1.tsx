@@ -214,12 +214,13 @@ export default function HomePage() {
               Well work with your team to build a custom, high-performing
               website that helps you gain customers and keep them for longer.
             </p>
-            <Button
+            <a
+              href="/contact"
               className="bg-black hover:bg-black/90 text-white px-8 py-6 text-lg"
               size="lg"
             >
               Get Started
-            </Button>
+            </a>
           </div>
 
           {/* Right Column - Image Grid */}
@@ -308,6 +309,7 @@ export default function HomePage() {
           {/* CTA Button */}
           <div className="mt-16 text-center">
             <Button
+              onClick={() => window.open("/contact", "_blank")}
               size="lg"
               className="text-[18px] bg-black hover:bg-black/90 text-white px-8 py-6"
             >
